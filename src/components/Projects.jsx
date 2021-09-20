@@ -8,7 +8,7 @@ function Projects() {
                 <div id='pro' className='pro' className="card" style={{width: '30%',display:'inline-block',}}>
                     <img src='com.jpg' className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <p className="card-text">GitHub using React<br/>A web page application that have a github user's information using react</p>
+                        <p className="card-text">GitHub using React<br/>A webpage application that have a github user's information using react</p>
                     </div>
                 </div>
                 <div id='pro1' className="card" style={{width: '30%',display:'inline-block'}}>
