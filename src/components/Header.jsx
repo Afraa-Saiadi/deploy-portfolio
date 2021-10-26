@@ -24,7 +24,7 @@ export default function Header() {
                 </nav>
                     <div  style={{textAlign:'center' ,font:'50px Arial sans-serif', color:'white',marginTop:'200px' }}>
                       <h1>  Afraa Saiadi<br/><span>Web</span> <span className='slow'>Developer</span><br/></h1>
-                        <a  target='_blank' href ='Afraa Saiadi CV NL 1.pdf' download>Download cv</a>
+                        <a  target='_blank' href ='Afraa Saiadi CV NL 2.pdf' download>Download cv</a>
                     </div>
                     <div style={{marginTop:'30px' , textAlign:'center'}}>
                         <SocialIcon url="https://github.com/Afraa-Saiadi" />
