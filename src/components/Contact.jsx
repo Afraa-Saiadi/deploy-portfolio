@@ -57,7 +57,12 @@ function Contact() {
                             <div className="mb-3">
                                 <label  className="form-label">Name</label>
                                 <input type="text" className="form-control" name='name'/>
+                            </div
+                            <div className="mb-3">
+                                <label  className="form-label">Your Email</label>
+                                <input type="text" className="form-control" name='email'/>
                             </div>
+
                             <div className="mb-3">
                                 <label  className="form-label">Message</label>
                                 <textarea type="text" className="form-control" name='message'/>
