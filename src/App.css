@@ -31,6 +31,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    border:1px solid red
 }
 .contact{
     background-color:rgb(236, 243, 250);
@@ -73,7 +74,7 @@ body{
 }
 
 .card{
-    height: 70%;
+    height: 85%;
     width: 80%;
     margin:auto;
     box-shadow: 10px 5px 5px rgb(195, 195, 240);
@@ -128,6 +129,16 @@ body{
 h3,p{
     font-family: serif;
 }
-.card-text{
-    font-size: large;
-}
+/* .card-text{ */
+    /* font-size:5vw; */
+    @media screen and (min-width: 1200px) {
+        .card-text {
+          font-size: 30px;
+        }
+      }
+      
+      @media screen and (max-width: 260px) {
+        .card-text {
+          font-size: 8px;
+        }
+      }

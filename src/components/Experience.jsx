@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link  } from 'react-scroll';
+import { Card } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+
 
 function Experience() {
     return (
         <div className='experience'>
-            <div className="card">
+            <Card className="card">
               <div className="card-header">
                 Experience
               </div>
@@ -25,7 +28,7 @@ function Experience() {
                   
               </ul>
                 <Link className='btn btn-primary' style={{color:'blue'}} to = 'header' smooth={true} duration={1000} >Go back </Link>
-              </div>
+              </Card>
             </div> 
         
     )
